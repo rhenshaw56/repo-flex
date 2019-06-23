@@ -1,0 +1,24 @@
+/*-----HEADER SOCIAL ICONS-----*/
+header {
+	
+    
+    
+    
+    
+
+} // end header
+
+/*  ------------- MAIN -------------  */
+.layout {
+
+  @for $i from 1 to 12 {
+    $width: ($i / 12) * 100%;
+    .medium-#{$i} {
+      width: $width;
+      float: left;
+    }
+  }
+
+} // end main
+
+
